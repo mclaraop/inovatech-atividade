@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --primaria: rgb(202, 200, 200);
+}
+
+body{
+    width: 100%;
+    height: 100vh; /* altura do dispositivo - viewport height */
+    background-color: var(--primaria);
+    display: flex; /* centralizar o main */
+    justify-content: center; /* centralizar o main */
+    align-items: center;
+    background-image: url(/images/inovatech.jpg);
+}
+
+
+input{
+    height: 40px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* separar tudo do formulário */
+}
+
+button{
+    width: 100px;
+}
+
+main{
+    width: 60%;
+    height: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+main h2{
+    padding: 15px;
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+}

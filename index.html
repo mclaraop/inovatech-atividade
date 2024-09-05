@@ -1,0 +1,41 @@
+<!-- Utilizando os conhecimentos dados em sala de aula, monte uma página de cadastro com um formulário com os seguintes itens da empresa InovaTech:
+-Nome de usuário
+-Email de usuário
+-Senha de usuário
+-Repita a senha -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InovaTech</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <h2>InovaTech</h2>
+        <form action="#" method="post">
+            <label for="nome">Digite o seu nome:</label>
+            <input id="nome" value="" type="text">
+
+            <label for="email">Digite seu email:</label>
+            <input id="email" placeholder="nomeUsuario@aluno.senai.br" required type="email">
+
+
+            <label for="senha">Digite a sua senha:</label>
+            <input id="senha" maxlength="8" type="password">
+
+            <label for="repetirSenha">Digite novamente:</label>
+            <input id="repetirSenha" maxlength="8" type="password">
+
+            <button type="submit"> CADASTRAR </button> 
+        </form>
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
